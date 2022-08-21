@@ -2,23 +2,36 @@
     font-family: 'Poppins', sans-serif;
     margin:0px;;
 }
+span {
+    color:#E54583 ;
+}
+button{
+    background-color: #E54583;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+}
 /* -------Header------- */
+header{
+    background-image: linear-gradient(#FCE1EA ,#FCE1EA);
+}
     .logo-memu{
+        width: 90%;
         align-items: center;
         display: flex;
         justify-content: space-between;
-        background-image: linear-gradient(#FCE1EA ,#FCE1EA);
     }
 /* -------logo----- */
 .logo{
     display: flex;
     align-items: center;
+    margin-left: 70px;
 }
 .logo img{
     width: 50px;
-}
-.logo h3 span {
-    color:#E54583 ;
 }
 
 /* ----- Menu-bar------- */
@@ -35,5 +48,28 @@
     color: #ffff;
     background-color: #E54583;
     border-radius: 10px;
+    transition: 0.6s;
+}
+/* --------Banner--------- */
+.banner {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-areya{
+    margin-left: 290px;
+}
+.title-areya h2{
+    font-weight: 500;
+}
+.title-areya p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.title-areya button:hover{
+    color: #fff;
+    background-color: #f8689f;
     transition: 0.6s;
 }
