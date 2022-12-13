@@ -109,3 +109,10 @@ section.product {
 .item img{
     width: 150px;
 }
+.customers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
