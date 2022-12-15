@@ -131,6 +131,10 @@ section.customers-reviews {
     padding: 20px;
     text-align: center;
 }
+.sideTitle{
+    display: flex;
+}
+
 .footer-header{
     color: #f8689f;
 }
