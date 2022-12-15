@@ -133,6 +133,15 @@ section.customers-reviews {
 }
 .sideTitle{
     display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.contant{
+    padding: 50px;
+}
+.contantImg img {
+    width: 100%;
 }
 
 .footer-header{
